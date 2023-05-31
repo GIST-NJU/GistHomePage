@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="network programming course">
+
+    <title>网络编程</title>
+    <link rel="stylesheet" href="./css/pure.min.css">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="./css/blog-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="./css/blog.css">
+    <!--<![endif]-->
+    <style>
+        .my-list > li {
+            padding-bottom: 15px;
+        }
+        .my-head {
+            padding-top: 20px ;
+        }
+    </style>
+</head>
+<body>
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <h1 class="brand-title">网络编程</h1>
+            <h2 class="brand-tagline">Network Programming</h2>
+            <br>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="pure-button" href="#top">课程简介</a></li>
+                    <li class="nav-item"><a class="pure-button" href="#content">教学内容</a></li>
+                    <li class="nav-item"><a class="pure-button" href="#download">课件下载</a></li>
+                    <li class="nav-item"><a class="pure-button" href="http://gist.nju.edu.cn">GIST HOME</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div class="posts">
+            <section id="top" class="post my-head">
+                <header class="post-header">
+                    <h2 class="post-title">课程简介 <small>32学时（教学+实验）</small></h2>
+                </header>
+
+                <div class="post-description">
+                    <h4>教学目标</h4>
+                    <p>本课程主要为进行 Sockets 网络编程的学生提供帮助，
+                        课程内容包括 TCP/IP 网络协议的基本概念，Sockets 网络编程的基本原理。
+                        在阐明 Sockets 套接口类型以及面向连接/非连接协议等基本概念的基础上，
+                        介绍简单的客户/服务器程序的编写方法和主机名/网络名查询程序的编写方法。
+                        另外，也简单介绍一下并发客户服务程序、守护进程、网络安全程序设计等较为高级的主题。</p>
+
+                    <ul class="my-list">
+                        <li>通过利用套接字（Socket）应用程序接口编程，实现不同程序不同计算机之间的通讯，
+                            进一步巩固程序设计语言 C、计算机操作系统和计算机网络等先行课程基础。</li>
+                        <li>为初学者或者职业技术人员进行网络编程提供指导。</li>
+                        <li>既可以通过学习实现独立开发新的网络软件，也可以通过网络编程的学习进一步了解网络各种组件之间的工作原理。</li>
+                    </ul>
+
+                    <p>This course aims to teach students to write programs that communicate with each other using
+                        an application program interface (API) known as sockets. It will offer guidance on network
+                        programming for beginners as well as professionals, for those developing new network-aware
+                        applications as well as those maintaining existing code, and for people who simply want
+                        to understand how the networking components of their system function.</p>
+
+
+                    <h4>前导知识</h4>
+                    <p>程序设计语言（C 或者 C++），操作系统，计算机网络</p>
+
+                    <h4>教材</h4>
+                    <p>杨继张译, 史缔文斯等著《UNIX网络编程》, 清华大学出版社</p>
+
+                    <h4>主要参考书</h4>
+                    <p>W. Richard Stevens, Bill Fenner, Andrew M. Rudoff，
+                        《UNIX Network Programming》, Addison Wesley&nbsp;&nbsp;
+                        <a href="./file/UNIX.Network.Programming.chm">下载</a></p>
+
+                    <h4>考核方式</h4>
+                    <p>平时出勤 (10%) + 大作业 (20%) + 期末闭卷考试 (70%)</p>
+                </div>
+            </section>
+
+
+            <section id="content" class="post my-head">
+                <header class="post-header">
+                    <h2 class="post-title">教学内容</h2>
+                </header>
+
+                <div class="post-description">
+                    <h4>理论</h4>
+                    <ul class="my-list">
+                        <li>TCP/IP 协议简介（4学时）：了解 TCP/IP 协议的起源与发展，知道 TCP/IP 协议的体系结构和特点以及套接字等概念。</li>
+                        <li>Sockets 编程原理（10学时）：套接字编程基本概念，基本套接字系统调用，典型套接字调用过程。</li>
+                        <li>UNIX Sockets 程序设计（12学时）：UNIX Sockets简介，异步选择机制，阻塞处理方法，
+                            面向连接的程序设计举例，面向非连接的程序设计举例。</li>
+                        <li>高级 Sockets 编程（6学时）：并发客户服务程序，UDP广播，网络安全程序设计等。</li>
+                    </ul>
+
+                    <h4>实践</h4>
+                    <ul class="my-list">
+                        <li>时间获取客户/服务器程序的设计与实现，
+                            通过对这个程序不断地进行改进和升级等实践环节熟悉计算机网络系统中各个组件的工作原理。</li>
+                        <li>TCP 回射服务器程序的设计、实现和不断该进升级，
+                            通过这个实践来学习和实践 socket 套接字编程基本概念，基本套接字系统调用和典型套接字调用过程等。</li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section id="download" class="post my-head">
+                <header class="post-header">
+                    <h2 class="post-title">课件下载</h2>
+                </header>
+
+                <div class="post-description">
+                    <ul class="my-list">
+                        <li><a href="./file/chapter1.ppt">Chapter 1 &nbsp;&nbsp; Network programming</a></li>
+                        <li><a href="./file/chapter2.ppt">Chapter 2 &nbsp;&nbsp; The Transport Layer</a></li>
+                        <li><a href="./file/chapter3.ppt">Chapter 3 &nbsp;&nbsp; Sockets Introduction</a></li>
+                        <li><a href="./file/chapter4.ppt">Chapter 4 &nbsp;&nbsp; Elementary TCP Sockets</a></li>
+                        <li><a href="./file/chapter5.ppt">Chapter 5 &nbsp;&nbsp; TCP Client/Server Example</a></li>
+                        <li><a href="./file/chapter6.ppt">Chapter 6 &nbsp;&nbsp; I/O Multiplexing</a></li>
+                        <li><a href="./file/chapter7.ppt">Chapter 7 &nbsp;&nbsp; Socket Options</a></li>
+                        <li><a href="./file/chapter8.ppt">Chapter 8 &nbsp;&nbsp; Elementary UDP Sockets</a></li>
+                        <li><a href="./file/chapter9.ppt">Chapter 9 &nbsp;&nbsp; Elementary SCTP Sockets</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--div class="footer">
+                <div>
+                    <p>Copyright &copy; 2015 Changhai Nie, All right reserved</p>
+                </div>
+            </div-->
+        </div>
+    </div>
+</div>
+</body>
+</html>

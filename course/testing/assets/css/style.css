@@ -1,0 +1,26 @@
+a:link {
+  text-decoration: none;
+}
+
+blockquote {
+	margin: 0 0 1em 0;
+	padding: 0.5em 0 0.5em 2em;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+h4 {
+	padding-top: 1em;
+}
+
+.emph {
+	color: #734376;
+	font-weight: bold;
+}
+
+.muted {
+	color: #AAAAAA;
+}
+
