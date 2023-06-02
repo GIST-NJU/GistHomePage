@@ -1,0 +1,177 @@
+/* Basic
+-------------------------------------------------- */
+html {
+    overflow-y: scroll;
+    position: relative;
+    min-height: 100%;
+}
+body {
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+.footer .container {
+    text-align: center;
+    width: auto;
+}
+@media (min-width: 992px) {
+    .container {
+        width: 980px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 980px;
+    }
+}
+hr.small {
+    max-width: 400px;
+    border-top: 1px solid #b3b3b3;
+}
+.masthead {
+    padding-bottom: 20px;
+}
+.masthead h1 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+/* nav-bar
+-------------------------------------------------- */
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #4d0099;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #4d0099;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse {
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #e6e6e6;
+}
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:hover,
+.navbar-default .navbar-nav > li.active > a:focus {
+    color: #ffffff;
+    background-color: #4d0099;
+}
+
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        margin-left: -10px;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+    .sidebar-nav .navbar ul:not {
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .left-margin {
+        margin-left: -98px;
+    }
+}
+
+/* Customized
+-------------------------------------------------- */
+a {
+    color: #400099;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #f20073;
+}
+.text-custom {
+    color: #400099;
+}
+p {
+    line-height: 1.7em;
+    font-size: 15px;
+}
+.list-my li {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.list-my-s li {
+    padding-bottom: 5px;
+}
+
+.my-table td {
+    font-size: 15px;
+}
+
+.row-padding {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.img-padding {
+    padding-bottom: 10px;
+}
+
+/* photo */
+.p500px {
+    padding-top: 2px;
+}
+.p500px > a {
+    font-size: 10px;
+    color: #666666;
+}
+.p500px > a:hover,
+.p500px > a:focus {
+    color: #262626;
+}
+
+/* map */
+#allmap,
+#accmap {
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    margin: 20px 0;
+    font-family: "微软雅黑", sans-serif ;
+}
+
+/* color */
+.label-s1 {
+    background-color: #1DCEB4;
+}
